@@ -1,16 +1,1 @@
 FROM n8nio/n8n:1.26.0
-
-ENV N8N_BASIC_AUTH_ACTIVE=true
-ENV N8N_BASIC_AUTH_USER=admin
-ENV N8N_BASIC_AUTH_PASSWORD=yourstrongpassword
-
-ENV N8N_HOST=0.0.0.0
-ENV N8N_PORT=443
-ENV N8N_PROTOCOL=https
-ENV N8N_EDITOR_BASE_URL=https://n8n-1-pztp.onrender.com
-ENV N8N_TRUST_PROXY=true
-
-# Optional but recommended
-ENV N8N_ENCRYPTION_KEY=yourGeneratedEncryptionKeyBase64
-
-EXPOSE 443
